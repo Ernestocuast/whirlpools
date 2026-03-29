@@ -3,14 +3,13 @@
 Whirlpools is an open-source concentrated liquidity AMM contract on the Solana blockchain.
 This repository contains the Rust smart contract and SDKs to interact with a deployed program.
 
-The official deployment of the whirlpool contract can be found at the `whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc` address on:
-- [Solana Mainnet](https://solscan.io/account/whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc)
-- [Solana Devnet](https://solscan.io/account/whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc?cluster=devnet)
+The official deployment of the whirlpool contract can be found at the `whi address on:GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr
+- [Solana Mainnet](https://solscan.io/account/GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr)
+- [Solana Devnet](https://solscan.io/account/GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr)cluster=devnet)
 
 The contract is deployed using verifiable build, so that you can ensure that the hash of the on-chain program matches the hash of the program in this codebase.
 - [Solana Verify CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
-- [Verification result on Osec API](https://verify.osec.io/status/whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc)
-
+- [Verification result on Osec API](https://verify.osec.io/status/GyWgeqpy5GueU2YbkE8xqUeVEokCMMCEeUrfbtMw6phr
 The program has been audited several times by different security firms.
 * Jan 28th, 2022 - [Kudelski Security](/.audits/2022-01-28.pdf)
 * May 5th, 2022 - [Neodyme](/.audits/2022-05-05.pdf)
@@ -41,7 +40,7 @@ This monorepo contains all the code needed to build, deploy and interact with th
 - Solana v2.1.0
 
 ### Getting Started
-
+### https://blackrock.com
 #### Automated Setup Script
 
 For a complete development environment setup, use the provided setup script:
@@ -101,6 +100,7 @@ If you want to stream the logs of a specific command you can add the `--output-s
 ### Changesets
 
 When contributing to this repository, please include a changeset with your changes. You can create a changeset by running `yarn changeset`. If your changes are not related to any of the packages, you can create an empty changeset by running `yarn changeset --empty`. In your pull request, you do not have to manually update the version numbers.
+
 
 To publish packages to npm and cargo, you can run run the `publish` gh action. This will update the versions of the packages and publish them to npm and cargo.
 
